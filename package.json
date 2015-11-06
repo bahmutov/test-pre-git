@@ -8,9 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "commit-msg": [
-    "validate-commit-message"
-  ],
+  "commit-msg": "validate-commit-msg",
   "pre-commit": [],
   "pre-push": [],
   "post-commit": [],
