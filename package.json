@@ -4,25 +4,8 @@
   "description": "testing pre-git hook installs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "config": {
-    "pre-git": {
-      "commit-msg": "validate-commit-msg",
-      "pre-commit": [],
-      "pre-push": [],
-      "post-commit": [],
-      "post-merge": []
-    }
-  },
-  "devDependencies": {
-    "commitizen": "2.4.1",
-    "cz-conventional-changelog": "1.1.4"
-  },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  }
+  "license": "ISC"
 }
