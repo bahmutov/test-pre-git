@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "pre-git": "1.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahmutov/test-pre-git.git"
   }
 }
