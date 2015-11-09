@@ -1,0 +1,31 @@
+{
+  "name": "test-git-hooks",
+  "version": "1.0.0",
+  "description": "testing pre-git hook installs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "./node_modules/pre-git/node_modules/commitizen/bin/git-cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "pre-git": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": [],
+      "pre-push": [],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "czConfig": {
+    "path": "node_modules/pre-git/node_modules/cz-conventional-changelog"
+  },
+  "devDependencies": {
+    "pre-git": "1.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahmutov/test-pre-git.git"
+  }
+}
