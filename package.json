@@ -4,28 +4,12 @@
   "description": "testing pre-git hook installs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "commit-wizard"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "config": {
-    "pre-git": {
-      "commit-msg": "validate-commit-msg",
-      "pre-commit": [],
-      "pre-push": [],
-      "post-commit": [],
-      "post-merge": []
-    }
-  },
-  "devDependencies": {
-    "pre-git": "1.2.11"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/bahmutov/test-pre-git.git"
-  },
-  "czConfig": {
-    "path": "node_modules/pre-git/node_modules/cz-conventional-changelog"
   }
 }
