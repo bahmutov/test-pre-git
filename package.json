@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"This is a unit test \"",
-    "commit": "commit-wizard"
+    "commit": "commit-wizard",
+    "demo-pre-commit": "DEBUG=pre-git .git/hooks/pre-commit -f",
+    "demo-commit-msg": "DEBUG=pre-git .git/hooks/commit-msg"
   },
   "author": "",
   "license": "ISC",
