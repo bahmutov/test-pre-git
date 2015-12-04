@@ -16,7 +16,7 @@
   "config": {
     "pre-git": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": [],
+      "pre-commit": ["npm test"],
       "pre-push": [],
       "post-commit": [],
       "post-merge": []
