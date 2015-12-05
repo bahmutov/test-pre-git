@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"This is a unit test \"",
     "commit": "commit-wizard",
-    "demo-pre-commit": "DEBUG=pre-git .git/hooks/pre-commit -f",
-    "demo-commit-msg": "DEBUG=pre-git .git/hooks/commit-msg"
+    "demo-pre-commit": "Q_DEBUG=1 DEBUG=pre-git .git/hooks/pre-commit -f",
+    "demo-commit-msg": "Q_DEBUG=1 DEBUG=pre-git .git/hooks/commit-msg"
   },
   "author": "",
   "license": "ISC",
