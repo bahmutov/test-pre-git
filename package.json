@@ -19,7 +19,10 @@
     "pre-git": {
       "commit-msg": "validate-commit-msg",
       "pre-commit": ["npm test"],
-      "pre-push": [],
+      "pre-push": [
+        "echo pre push command",
+        "exit -1"
+      ],
       "post-commit": [],
       "post-merge": []
     }
