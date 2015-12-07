@@ -2,7 +2,7 @@
 
 > Small git repo for testing [pre-git](https://github.com/bahmutov/pre-git) hooks
 
-test
+text test
 
 ### Small print
 
